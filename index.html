@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Shafkat's Portfolio...</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+		integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+		rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+		<div class="logo">
+			<p><img src="img/dev-shafkat.png" alt="logo"></p>
+		</div>
+		<button class="nav-toggle" aria-label="toggle navigation">
+			<span class="hamburger"></span>
+		</button>
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+				<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+				<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+				<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<!-- Introduction -->
+	<section class="intro" id="home">
+		<h1 class="section__title section__title--intro">
+			Hi I am <strong class="strongclass">Muhtasir Shafkat <i class="fa-brands fa-gitkraken"></i> </strong>
+		</h1>
+
+		<p class="section__subtitle section__subtitle--intro">full-stack dev</p>
+		<img src="img/Shafkat.jpg" alt="A picture of Shafkat." class="intro__img" />
+	</section>
+
+	<!-- Scroll to top  -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">
+		<i class="fa-solid fa-angles-up"></i> <br> Top </button>
+
+	<!-- My services -->
+
+	<section class="my-services" id="services">
+		<h2 class="section__title section__title--services">What I do</h2>
+		<div class="services">
+			<div class="service">
+				<h3>Design + Development <i class="fa-solid fa-pen-nib"></i> </h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+					eiusmod tempor incididunt ut labore et dolore magna aliqua. Id
+					ornare arcu odio ut sem nulla. At imperdiet dui accumsan sit amet
+					nulla facilisi. Et tortor consequat id porta nibh venenatis. Lacus .
+				</p>
+			</div>
+			<!--  service -->
+			<div class="service">
+				<h3>E-Commerce <i class="fa-solid fa-cart-arrow-down"></i> </h3>
+				<p>
+					Sed turpis tincidunt id aliquet. Duis ultricies lacus sed turpis.
+					Tincidunt augue interdum velit euismod in pellentesque massa.
+					Aliquet bibendum enim facilisis gravida neque convallis a. Dignissim
+					suspendisse in est ante. Dolor purus non enim praesent elementum .
+				</p>
+			</div>
+			<!--  service -->
+			<div class="service">
+				<h3>WordPress <i class="fa-brands fa-wordpress"></i> </h3>
+				<p>
+					Facilisis leo vel. Eros in cursus turpis massa tincidunt dui.
+					Euismod nisi porta lorem mollis aliquam ut porttitor. Nam aliquam
+					sem et tortor consequat id porta nibh venenatis. Est ultricies
+					integer quis auctor elit sed. Consequat semper viverra nam libero
+					justo laoreet. Egestas pretium aenean pharetra magna ac. Ultrices
+					sagittis orci a scelerisque purus semper eget.
+				</p>
+			</div>
+			<!--  service -->
+		</div>
+		<!--  services -->
+		<a href="#work" class="btn">My Work</a>
+	</section>
+
+	<!-- About me -->
+	<section class="about-me" id="about">
+		<h2 class="section__title section__title__about">Who I am</h2>
+		<!-- <h3></h3> -->
+		<p class="section__subtitle section__subtitle--about">Designer & Developer based on Dhaka</p>
+		<div class="about-me__body">
+			<p>I am Muhtasir Shafkat. A full stack web developer.
+				I study B.Sc. in Computer Science and Engineering
+				at University of Liberal Arts Bangladesh.
+				This is my last year at my university.
+
+				It’s been Four years of my coding journey.
+				I have realized, I love coding a great deal.
+				Building website and Software is what I love doing the most.
+
+
+			</p>
+			<p> I am good at...
+				Java Programming <i class="fa-brands fa-java"></i> <br>
+				HTML, CSS, JavaScript <i class="fa-brands fa-js-square"></i> <br>
+				<i class="fa-solid fa-c"></i>, C++ <br>
+				React.js <i class="fa-brands fa-react"></i> <br>
+				Node.js <i class="fa-brands fa-node"></i> <br>
+				MongoDB,
+				MySQL,
+				Python <i class="fa-brands fa-python"></i>
+				<br>
+				I can Design and build Website and Mobile Application …
+
+				BTW I am big fan of Naruto and I love eating Burger 🦊🍜 🍔 😝
+			</p>
+		</div>
+		<img src="img/shafkat-ulab.jpg" alt="shafkat reading a book" class="about-me__img" />
+	</section>
+	<!-- My work -->
+
+	<section class="my-work" id="work">
+		<h2 class="section__title section__title--work">My work</h2>
+		<p class="section__subtitle section__subtitle--work">A selection of my range of work...</p>
+
+		<div class="portfolio">
+			<!-- Portfolio item 01 -->
+			<a href="#" class="portfolio__item">
+				<img src="img/Portfolio_1.jpg" alt="" class="portfolio__img" />
+			</a>
+			<!-- Portfolio item 02 -->
+			<a href="#" class="portfolio__item">
+				<img src="img/Portfolio_2.jpg" alt="" class="portfolio__img" />
+			</a>
+			<!-- Portfolio item 03 -->
+			<a href="#" class="portfolio__item">
+				<img src="img/Portfolio_3.jpg" alt="" class="portfolio__img" />
+				<!-- Portfolio item 04 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/Portfolio_4.jpg" alt="" class="portfolio__img" />
+				</a>
+				<!-- Portfolio item 05 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/Portfolio_5.jpg" alt="" class="portfolio__img" />
+				</a>
+				<!-- Portfolio item 06 -->
+				<a href="portfolio-item.html" class="portfolio__item">
+					<img src="img/Portfolio_6.jpg" alt="" class="portfolio__img" />
+					<!-- Portfolio item 07 -->
+					<a href="portfolio-item.html" class="portfolio__item">
+						<img src="img/Portfolio_7.jpg" alt="" class="portfolio__img" />
+					</a>
+					<!-- Portfolio item 08 -->
+					<a href="portfolio-item.html" class="portfolio__item">
+						<img src="img/Portfolio_8.jpg" alt="" class="portfolio__img" />
+					</a>
+					<!-- Portfolio item 09 -->
+					<a href="portfolio-item.html" class="portfolio__item">
+						<img src="img/Portfolio_9.jpg" alt="" class="portfolio__img" />
+					</a>
+					<!-- Portfolio item 010 -->
+					<a href="portfolio-item.html" class="portfolio__item">
+						<img src="img/Portfolio_10.jpg" alt="" class="portfolio__img" />
+					</a>
+		</div>
+
+
+	</section>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<h3>Get in touch...</h3>
+		<a href="mailto:msm.shafkat99@gmail.com" class="footer__link">msm.shafkat99@gmail.com</a>
+		<ul class="social-list">
+			<li class="social-list__item">
+				<a href="https://www.facebook.com/shafkat63/" class="social-list__link">
+					<i class="fab fa-facebook"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a href="https://www.twitter.com/shafkat63/" class="social-list__link">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a href="https://www.linkedin.com/muhtasir-shafkat/" class="social-list__link">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a href="https://github.com/shafkat63" class="social-list__link">
+					<i class="fab fa-github"></i>
+
+				</a>
+			</li>
+		</ul>
+		<p class="copyright">© 2022 Muhtasir Shafkat.</p>
+	</footer>
+
+	<script src="index.js"></script>
+</body>
+
+</html>
